@@ -1,0 +1,844 @@
+{
+  "input": {
+    "zipCode3Digit": "852",
+    "shippingDate": "8/11/2023"
+  },
+  "url": "https://postcalc.usps.com/DomesticZoneChart/GetZoneChart?zipCode3Digit=852&shippingDate=8%2F11%2F2023&_=1691680030952",
+  "originMin": "85200",
+  "originMax": "85299",
+  "requestedDate": {
+    "y": 2023,
+    "m": 8,
+    "d": 11
+  },
+  "effectiveDateRaw": "August 1, 2023",
+  "zip3s": [
+    {
+      "ZipCodes": "005---089",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "090---099",
+      "Zone": "8+",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "100---149",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "150---151",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "152",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "153",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "154---160",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "161",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "162---212",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "214---239",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "240---243",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "244---245",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "246---253",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "254",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "255---266",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "267---268",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "270---271",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "272---279",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "280---282",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "283---285",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "286---290",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "291",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "292---293",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "294---295",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "296---326",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "327---334",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "335---337",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "338---341",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "342",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "344",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "346",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "347",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "349",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "350---352",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "354---356",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "357---364",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "365---366",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "367---368",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "369",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "370---374",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "375",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "376---379",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "380---384",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "385",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "386---397",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "398---418",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "420",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "421---423",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "424",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "425---427",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "430---475",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "476---477",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "478---499",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "500---516",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "520---528",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "530---532",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "534",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "535",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "537---540",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "541---543",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "544",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "545",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "546---551",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "553---555",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "556",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "557---567",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "570---574",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "575---577",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "580---588",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "590---591",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "592",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "593---594",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "595",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "596---598",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "599",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "600",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "601",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "602---603",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "604---605",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "606---608",
+      "Zone": "7",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "609---620",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "622---631",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "633---641",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "644---647",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "648",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "649---658",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "660",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "661---662",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "664---680",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "681",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "683---693",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "700---701",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "703---708",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "710---714",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "716---728",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "729---731",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "733---741",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "743---758",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "759",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "760---770",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "772---774",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "775---777",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "778---789",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "790---791",
+      "Zone": "4",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "792---793",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "794",
+      "Zone": "4",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "795---797",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "798---805",
+      "Zone": "4",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "806---808",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "809---816",
+      "Zone": "4",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "820---838",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "840---846",
+      "Zone": "4",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "847",
+      "Zone": "3",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "850---852",
+      "Zone": "1*",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "853",
+      "Zone": "2*",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "855---857",
+      "Zone": "2*",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "859",
+      "Zone": "2*",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "860",
+      "Zone": "3*",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "863",
+      "Zone": "2*",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "864---865",
+      "Zone": "3",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "870",
+      "Zone": "3",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "871",
+      "Zone": "4",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "873---874",
+      "Zone": "3",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "875",
+      "Zone": "4",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "876",
+      "Zone": "3",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "877",
+      "Zone": "4",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "878---880",
+      "Zone": "3",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "881---885",
+      "Zone": "4",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "889---891",
+      "Zone": "3",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "893",
+      "Zone": "4",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "894---895",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "897---898",
+      "Zone": "4",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "900---908",
+      "Zone": "4",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "910---918",
+      "Zone": "4",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "919---920",
+      "Zone": "3",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "921",
+      "Zone": "4",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "922",
+      "Zone": "3",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "923---928",
+      "Zone": "4",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "930---939",
+      "Zone": "4",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "940---949",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "950",
+      "Zone": "4",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "951",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "952---953",
+      "Zone": "4",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "954---961",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "962---966",
+      "Zone": "5+",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "967---968",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "969",
+      "Zone": "9+",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "970",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "971---972",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "973---979",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "980---986",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "988",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "989",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "990---992",
+      "Zone": "6",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "993---994",
+      "Zone": "5",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "995---998",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "999",
+      "Zone": "7",
+      "MailService": ""
+    }
+  ],
+  "zip5s": [
+    {
+      "ZipCodes": "09000---09999",
+      "Zone": "7",
+      "MailService": "Priority Mail"
+    },
+    {
+      "ZipCodes": "09000---09999",
+      "Zone": "7",
+      "MailService": "First-Class Mail"
+    },
+    {
+      "ZipCodes": "96200---96699",
+      "Zone": "7",
+      "MailService": "Priority Mail"
+    },
+    {
+      "ZipCodes": "96200---96699",
+      "Zone": "7",
+      "MailService": "First-Class Mail"
+    },
+    {
+      "ZipCodes": "96900---96938",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "96945---96959",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "96961---96969",
+      "Zone": "8",
+      "MailService": ""
+    },
+    {
+      "ZipCodes": "96971---96999",
+      "Zone": "8",
+      "MailService": ""
+    }
+  ]
+}
