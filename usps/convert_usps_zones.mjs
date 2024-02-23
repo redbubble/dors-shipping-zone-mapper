@@ -1,7 +1,7 @@
 import fs from 'node:fs'
 import { stringifyJSONTreeLessCrappily } from '../utils/json.mjs'
 import { convertExistingUspsData } from "./convertExistingUspsData.mjs"
-import { checkTree } from "../tree.mjs"
+import { checkTree } from "../utils/tree.mjs"
 
 const explodeIfPropertyUndefined = (name, target) => {
   return new Proxy(Object.freeze(target), {

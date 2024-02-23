@@ -1,0 +1,8 @@
+{
+  "description": "Fedex rate tools PDF https://www.fedex.com/ratetools/RateToolsMain.do",
+  "file": "85200-85299.pdf",
+  "parsedAt": "2024-02-23T03:52:19.994Z",
+  "repo": "core-ephemera",
+  "commitId": "636f0783ea8b66d00646acb80296768684e0e27a",
+  "committedAt": "2024-02-23T14:51:26+11:00"
+}
