@@ -86,4 +86,4 @@ const tree = {
 
 checkTree(tree);
 
-fs.writeFileSync('fedexZoneMapping.json', stringifyJSONTreeLessCrappily(tree));
+fs.writeFileSync('fedex.json', stringifyJSONTreeLessCrappily(tree));

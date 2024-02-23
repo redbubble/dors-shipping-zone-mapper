@@ -203,5 +203,5 @@ const upsMiOverlayTree = {
 checkTree(uspsTree);
 checkTree(upsMiOverlayTree);
 
-fs.writeFileSync('uspsZoneMapping.json', stringifyJSONTreeLessCrappily(uspsTree));
-fs.writeFileSync('upsMiOverlayZoneMapping.json', stringifyJSONTreeLessCrappily(upsMiOverlayTree));
+fs.writeFileSync('usps.json', stringifyJSONTreeLessCrappily(uspsTree));
+fs.writeFileSync('usps-upsmi-overlay.json', stringifyJSONTreeLessCrappily(upsMiOverlayTree));
