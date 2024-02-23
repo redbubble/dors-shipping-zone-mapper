@@ -1,0 +1,48 @@
+# Once you've created a new Buildkite pipeline for your app repo, add the following `steps` stanza
+# to the "YAML Steps" configuration of the pipeline.  This causes Buildkite to load the actual steps
+# from this pipeline.yml file.  See the documentation here:
+# https://buildkite.com/docs/pipelines/defining-steps#step-defaults-pipeline-dot-yml-file
+#
+# !!!DO NOT!!! add this step to your pipeline.yml file, otherwise you'll end up with a fork bomb.
+#
+# steps:
+#  - label: ":pipeline: Pipeline upload"
+#    command: buildkite-signed-pipeline upload
+
+steps:
+  - name: ":docker: Build"
+    plugins:
+      - docker-compose#v4.14.0:
+          cli-version: 2
+          push:
+            - app:redbubble/${BUILDKITE_PIPELINE_SLUG}:${BUILDKITE_BUILD_NUMBER}
+            - app:redbubble/${BUILDKITE_PIPELINE_SLUG}:${BUILDKITE_BRANCH}
+    agents:
+      queue: default-arm
+    concurrency: 1
+    concurrency_group: REPO_NAME/build
+
+  - wait
+
+  # You'll want to uncomment this when your repo is ready for production:
+  #
+  # - trigger: REPO_NAME-deploy
+  #   label: ":rocket: Deploy to production!"
+  #   branches: main
+  #   build:
+  #     message: "Deploy redbubble/REPO_NAME:${BUILDKITE_BUILD_NUMBER} to production!"
+  #     env:
+  #       APP_DOCKER_TAG: "${BUILDKITE_BUILD_NUMBER}"
+  #       DEPLOY_ENV_TARGET: "production"
+
+  - block: "Deploy to staging?"
+
+  # You'll want to uncomment this when your repo is ready for staging:
+  #
+  # - trigger: "${BUILDKITE_PIPELINE_SLUG}-deploy"
+  #   label: ":rocket: Deploy to staging!"
+  #   build:
+  #     message: "Deploy redbubble/${BUILDKITE_PIPELINE_SLUG}:${BUILDKITE_BUILD_NUMBER} to staging!"
+  #     env:
+  #       APP_DOCKER_TAG: "${BUILDKITE_BUILD_NUMBER}"
+  #       DEPLOY_ENV_TARGET: "staging"
