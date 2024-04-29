@@ -5,6 +5,7 @@ node download.mjs --zip 07000 > usps-zones-json/070.json
 node download.mjs --zip 07100 > usps-zones-json/071.json
 node download.mjs --zip 13300 > usps-zones-json/133.json
 node download.mjs --zip 18900 > usps-zones-json/189.json
+node download.mjs --zip 22150 > usps-zones-json/221.json
 node download.mjs --zip 28100 > usps-zones-json/281.json
 node download.mjs --zip 28200 > usps-zones-json/282.json
 node download.mjs --zip 28300 > usps-zones-json/283.json

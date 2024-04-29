@@ -1,17 +1,17 @@
 {
   "input": {
     "zipCode3Digit": "986",
-    "shippingDate": "8/11/2023"
+    "shippingDate": "4/29/2024"
   },
-  "url": "https://postcalc.usps.com/DomesticZoneChart/GetZoneChart?zipCode3Digit=986&shippingDate=8%2F11%2F2023&_=1691680038174",
+  "url": "https://postcalc.usps.com/DomesticZoneChart/GetZoneChart?zipCode3Digit=986&shippingDate=4%2F29%2F2024&_=1714365710373",
   "originMin": "98600",
   "originMax": "98699",
   "requestedDate": {
-    "y": 2023,
-    "m": 8,
-    "d": 11
+    "y": 2024,
+    "m": 4,
+    "d": 29
   },
-  "effectiveDateRaw": "August 1, 2023",
+  "effectiveDateRaw": "April 1, 2024",
   "zip3s": [
     {
       "ZipCodes": "005---089",
@@ -484,23 +484,8 @@
       "MailService": ""
     },
     {
-      "ZipCodes": "832---834",
+      "ZipCodes": "832---838",
       "Zone": "4",
-      "MailService": ""
-    },
-    {
-      "ZipCodes": "835",
-      "Zone": "4*",
-      "MailService": ""
-    },
-    {
-      "ZipCodes": "836---837",
-      "Zone": "4",
-      "MailService": ""
-    },
-    {
-      "ZipCodes": "838",
-      "Zone": "4*",
       "MailService": ""
     },
     {
@@ -665,17 +650,17 @@
     },
     {
       "ZipCodes": "980---981",
-      "Zone": "2*",
+      "Zone": "2",
       "MailService": ""
     },
     {
       "ZipCodes": "982---983",
-      "Zone": "3*",
+      "Zone": "3",
       "MailService": ""
     },
     {
       "ZipCodes": "984---985",
-      "Zone": "2*",
+      "Zone": "2",
       "MailService": ""
     },
     {
@@ -685,17 +670,17 @@
     },
     {
       "ZipCodes": "988",
-      "Zone": "3*",
+      "Zone": "3",
       "MailService": ""
     },
     {
       "ZipCodes": "989",
-      "Zone": "2*",
+      "Zone": "2",
       "MailService": ""
     },
     {
       "ZipCodes": "990---994",
-      "Zone": "3*",
+      "Zone": "3",
       "MailService": ""
     },
     {
@@ -723,22 +708,22 @@
     {
       "ZipCodes": "09000---09999",
       "Zone": "7",
-      "MailService": "Priority Mail"
+      "MailService": "Priority Mail service"
     },
     {
       "ZipCodes": "09000---09999",
       "Zone": "7",
-      "MailService": "First-Class Mail"
+      "MailService": "USPS Ground Advantage (< 16 oz.)"
     },
     {
       "ZipCodes": "96200---96699",
       "Zone": "7",
-      "MailService": "Priority Mail"
+      "MailService": "Priority Mail service"
     },
     {
       "ZipCodes": "96200---96699",
       "Zone": "7",
-      "MailService": "First-Class Mail"
+      "MailService": "USPS Ground Advantage (< 16 oz.)"
     },
     {
       "ZipCodes": "96900---96938",
