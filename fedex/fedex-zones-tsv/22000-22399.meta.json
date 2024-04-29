@@ -1,0 +1,8 @@
+{
+  "description": "Fedex rate tools PDF https://www.fedex.com/ratetools/RateToolsMain.do",
+  "file": "22000-22399.pdf",
+  "parsedAt": "2024-04-29T04:30:24.422Z",
+  "repo": "dors-shipping-zone-mapper",
+  "commitId": "9e38dc02d2d6d8cba1e3ab2a454684d84d6b74a2",
+  "committedAt": "2024-04-29T14:24:22+10:00"
+}

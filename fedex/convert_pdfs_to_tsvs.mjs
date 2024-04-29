@@ -38,7 +38,7 @@ for (const pdf of fedexPdfs) {
       description: "Fedex rate tools PDF https://www.fedex.com/ratetools/RateToolsMain.do",
       file: pdf,
       parsedAt: new Date().toISOString(),
-      repo: "core-ephemera",
+      repo: "dors-shipping-zone-mapper",
       commitId: hash,
       committedAt: date,
     }, null, 2),
